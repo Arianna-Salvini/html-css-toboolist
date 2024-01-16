@@ -1,15 +1,31 @@
  /* Setting rules */
  :root {
-      --tobool-black:#000000FF;
-      --tobool-lightgrey:#f6f8f9FF;
-      --tobool-grey: #D0D5D9;
-      --tobool-red-cross: #EF6D65;
-      --tobool-green: #64C0A9;
-      --tobool-lightblue: #45ABEA;
-      --tobool-violet: #9C72E4;
-      --tobool-orange: #F29E33;
-      --tobool-pink: #D863A1;
-      --tobool-lime: #B0C926;
-    }
+    --tobool-black: #000000FF;
+    --tobool-lightgrey: #f6f8f9FF;
+    --tobool-grey: #D0D5D9;
+    --tobool-red-cross: #EF6D65;
+    --tobool-green: #64C0A9;
+    --tobool-lightblue: #45ABEA;
+    --tobool-violet: #9C72E4;
+    --tobool-orange: #F29E33;
+    --tobool-pink: #D863A1;
+    --tobool-lime: #B0C926;
+ }
 
-    /* Header */
+ * {
+    font-family: sans-serif;
+ }
+
+ /* Header */
+ .text_header {
+    font-size: 2.3rem;
+    font-weight: bold;
+    display: inline-block;
+ }
+
+ .logo_header,
+ .text_header {
+    vertical-align: middle;
+ }
+
+ /* Header */
