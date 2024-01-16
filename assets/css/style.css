@@ -14,9 +14,27 @@
 
  * {
     font-family: sans-serif;
- }
+    color: var(--tobool-black);
+    margin: 0;
+   }
+
+   main{
+      background-color: var(--tobool-lightgrey);
+      padding-top: 2.5rem;
+   }
+
+   .container {
+     width: 835px;
+     margin: auto;
+     background-color: white;
+   }
 
  /* Header */
+.header_container {
+   background-color: white;
+   padding: 1rem;
+}
+
  .text_header {
     font-size: 2.3rem;
     font-weight: bold;
@@ -26,6 +44,31 @@
  .logo_header,
  .text_header {
     vertical-align: middle;
+    margin: 0;
+ }
+ 
+ /* Main */
+
+ .add_button {
+    border-bottom: 2px solid var(--tobool-lightgrey);
+    border-radius: 3px;
+    padding: 0.8rem 1rem 0.4rem 2.5rem;
  }
 
- /* Header */
+#bt_task, #bt_section {
+   padding: 0.4rem 0.8rem;
+   font-size: 0.7rem;
+   border-radius: 6px;
+}
+
+#bt_task {
+   border-color: var(--tobool-lightblue);
+   color: white;
+   background-color: var(--tobool-lightblue);
+}
+
+#bt_section {
+   color: var(--tobool-grey);
+   background-color: white;
+   border-color: var(--tobool-grey);
+}
