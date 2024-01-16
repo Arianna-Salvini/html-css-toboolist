@@ -75,7 +75,7 @@
    border-color: var(--tobool-grey);
 }
 
-/* Selection with drop down menu */
+/* Selection with tasks*/
 
 .list_container {
    padding: 2.5em ;
@@ -89,7 +89,7 @@
 
 #checkmark, #cross {
 
-   margin-right: 0.5rem;
+   margin-right: 0.3rem;
    border: 1px solid;
    border-radius: 50%;
 }
@@ -109,13 +109,33 @@
 .label {
    color: white;
    font-size: 0.6rem;
-   padding: 0.4rem;
-   border-radius: 15px;
+   padding: 0.4rem 0.5rem;
+   border-radius: 10px;
    vertical-align: middle;
-   margin-left: 0.5rem;
+   margin-left: 0.1rem;
 
 }
 
 #editional_label {
    background-color: var(--tobool-lightblue);
+}
+
+#Q1_label{
+   background-color: var(--tobool-violet);
+} 
+
+#recruiting_label{
+   background-color: var(--tobool-green);
+}
+
+#mobile_label{
+   background-color: var(--tobool-orange);
+} 
+
+#website_label{
+   background-color: var(--tobool-pink);
+}
+
+#sales_label{
+   background-color: var(--tobool-lime);
 }

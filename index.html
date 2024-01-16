@@ -7,21 +7,24 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+<!-- Header -->
     <header>
         <div class="header_container">
             <img class="logo_header" src="./assets/img/Logo.png" alt="Logo boolean rombo equilate verde e nero">
             <span class="text_header">Toboolist</span>
         </div>
     </header>
-
+<!-- /Header -->
+<!-- Main -->
     <main>
         <div class="container">
-
+        <!-- Add Button section -->
             <div class="add_button">
                 <button id="bt_task">Add Task</button>
                 <button id="bt_section">Add Section</button>
             </div>
-            
+        <!-- /Add Button section -->
+        <!-- "New Task" section -->   
             <section class="list_container">
                 <h2>&blacktriangledown; New Task</h2>
                 <div class="task_list">
@@ -30,9 +33,10 @@
                     <span class="label" id="editional_label">Editional</span>
                 </div>
             </section>
-
+        <!-- /"New Task" section -->
+        <!-- "Today" section -->
             <section class="list_container">
-                <h2>&blacktriangledown; New Task</h2>
+                <h2>&blacktriangledown; Today</h2>
                 <div class="task_list">
                     <span id="checkmark">&checkmark;</span>
                     <span>Recruiting blog post</span>
@@ -41,36 +45,36 @@
                 <div class="task_list">
                     <span id="checkmark">&checkmark;</span>
                     <span>Mobile app luaunch</span>
-                    <span class="label" id="editional_label">Editional</span>
+                    <span class="label" id="Q1_label">Q1 Goals</span>
                 </div>
                 <div class="task_list">
                     <span id="cross">&#10005;</span>
                     <span>Interview John H.</span>
-                    <span class="label" id="editional_label">Editional</span>
+                    <span class="label" id="recruiting_label">Recruiting</span>
                 </div>
                 <div class="task_list">
                     <span id="checkmark">&checkmark;</span>
                     <span>Summit update to mobile storefronts</span>
-                    <span class="label" id="editional_label">Editional</span>
+                    <span class="label" id="mobile_label">Mobile</span>
                 </div>
             </section>
-
+            <!-- "/Today" section -->
+            <!-- "Upcoming" section -->
             <section class="list_container">
                 <h2>&blacktriangledown; Upcoming</h2>
                 <div class="task_list">
-                    <span id="checkmark">&checkmark;</span>
+                    <span id="cross">&#10005;</span>
                     <span>Schedule meeting with Alex</span>
-                    <span class="label" id="editional_label">Editional</span>
                 </div>
                 <div class="task_list">
                     <span id="checkmark">&checkmark;</span>
                     <span>Homepage refresh</span>
-                    <span class="label" id="editional_label">Editional</span>
+                    <span class="label" id="website_label">Website</span>
                 </div>
                 <div class="task_list">
                     <span id="checkmark">&checkmark;</span>
                     <span>Onboard new Sales team members</span>
-                    <span class="label" id="editional_label">Editional</span>
+                    <span class="label" id="sales_label">Sales</span>
                 </div>
                 <div class="task_list">
                     <span id="checkmark">&checkmark;</span>
@@ -78,7 +82,9 @@
                     <span class="label" id="editional_label">Editional</span>
                 </div>
             </section>
+            <!-- /"Upcoming" section -->
         </div>
     </main>
+<!-- /Main -->
 </body>
 </html>
