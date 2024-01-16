@@ -30,7 +30,7 @@
    }
 
  /* Header */
-.header_container {
+.header_container, footer {
    background-color: white;
    padding: 1rem;
 }
@@ -140,3 +140,11 @@
 #sales_label{
    background-color: var(--tobool-lime);
 }
+
+
+/* Footer */
+ footer{
+   font-size: 0.7rem;
+   border-top: 2px solid var(--tobool-lightgrey);
+   text-align: center;
+ }
