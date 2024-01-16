@@ -16,24 +16,27 @@
     font-family: sans-serif;
     color: var(--tobool-black);
     margin: 0;
-   }
+ }
 
-   main{
-      background-color: var(--tobool-lightgrey);
-      padding-top: 2.5rem;
-   }
+ body {
+   background-color: var(--tobool-lightgrey);
+ }
 
-   .container {
-     width: 835px;
-     margin: auto;
-     background-color: white;
-   }
+ main {
+    padding-top: 2.5rem;
+ }
+
+ .container, footer {
+    width: 835px;
+    margin: auto;
+    background-color: white;
+ }
 
  /* Header */
-.header_container, footer {
+ .header_container {
    background-color: white;
    padding: 1rem;
-}
+ }
 
  .text_header {
     font-size: 2.3rem;
@@ -46,7 +49,7 @@
     vertical-align: middle;
     margin: 0;
  }
- 
+
  /* Main */
 
  /* button section */
@@ -57,94 +60,96 @@
     padding: 0.8rem 1rem 0.4rem 2.5rem;
  }
 
-#bt_task, #bt_section {
-   padding: 0.4rem 0.8rem;
+ #bt_task,
+ #bt_section {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.7rem;
+    border-radius: 6px;
+ }
+
+ #bt_task {
+    border-color: var(--tobool-lightblue);
+    color: white;
+    background-color: var(--tobool-lightblue);
+ }
+
+ #bt_section {
+    color: var(--tobool-grey);
+    background-color: white;
+    border-color: var(--tobool-grey);
+ }
+
+ /* Selection with tasks*/
+
+ .list_container {
+    font-size: 0.8rem;
+    padding: 1rem 2rem;
+ }
+
+ .task_list {
+    font-size: 0.9rem;
+    padding: 0.6rem 0;
+ }
+
+ .checkmark,
+ .cross {
+
+    margin-right: 0.3rem;
+    border: 1px solid;
+    border-radius: 50%;
+ }
+
+ .checkmark {
+    color: var(--tobool-green);
+    border-color: var(--tobool-green);
+    padding: 0 3px;
+ }
+
+ .cross {
+    color: var(--tobool-red-cross);
+    border-color: var(--tobool-red-cross);
+    padding: 0 0.2rem;
+ }
+
+ .label,  .editional_label  {
+    color: white;
+    font-size: 0.6rem;
+    padding: 0.4rem 0.5rem;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-left: 0.1rem;
+
+ }
+
+/* Labels color */
+
+ .editional_label {
+    background-color: var(--tobool-lightblue);
+ }
+
+ #Q1_label {
+    background-color: var(--tobool-violet);
+ }
+
+ #recruiting_label {
+    background-color: var(--tobool-green);
+ }
+
+ #mobile_label {
+    background-color: var(--tobool-orange);
+ }
+
+ #website_label {
+    background-color: var(--tobool-pink);
+ }
+
+ #sales_label {
+    background-color: var(--tobool-lime);
+ }
+
+ /* Footer */
+ footer {
    font-size: 0.7rem;
-   border-radius: 6px;
-}
-
-#bt_task {
-   border-color: var(--tobool-lightblue);
-   color: white;
-   background-color: var(--tobool-lightblue);
-}
-
-#bt_section {
-   color: var(--tobool-grey);
-   background-color: white;
-   border-color: var(--tobool-grey);
-}
-
-/* Selection with tasks*/
-
-.list_container {
-   font-size: 0.8rem;
-   padding: 2rem ;
-   padding-bottom: 0;
-}
-
-.task_list{
-   font-size: 0.9rem;
-   padding: 0.6rem 0;
-}
-
-#checkmark, #cross {
-
-   margin-right: 0.3rem;
-   border: 1px solid;
-   border-radius: 50%;
-}
-
-#checkmark {
-   color:  var(--tobool-green);
-   border-color:  var(--tobool-green);
-   padding: 0 3px;
-}
-
-#cross {
-   color:  var(--tobool-red-cross);
-   border-color:  var(--tobool-red-cross);
-   padding: 0 0.2rem;
-}
-
-.label {
-   color: white;
-   font-size: 0.6rem;
-   padding: 0.4rem 0.5rem;
-   border-radius: 10px;
-   vertical-align: middle;
-   margin-left: 0.1rem;
-
-}
-
-#editional_label {
-   background-color: var(--tobool-lightblue);
-}
-
-#Q1_label{
-   background-color: var(--tobool-violet);
-} 
-
-#recruiting_label{
-   background-color: var(--tobool-green);
-}
-
-#mobile_label{
-   background-color: var(--tobool-orange);
-} 
-
-#website_label{
-   background-color: var(--tobool-pink);
-}
-
-#sales_label{
-   background-color: var(--tobool-lime);
-}
-
-
-/* Footer */
- footer{
-   font-size: 0.7rem;
-   border-top: 2px solid var(--tobool-lightgrey);
-   text-align: center;
+   border-top: 2px solid var(--tobool-lightgrey) ;
+   padding: 1rem 2rem;
  }
